@@ -2,9 +2,8 @@
 
 .categories {
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 48px;
+    justify-content: center;
 }
 
 .field {
@@ -20,7 +19,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: .1rem;
+    padding: .2rem;
     transition: all .2s;
     animation: Show .3s;
 
@@ -29,6 +28,7 @@
         height: 46px;
         transition: all .2s;
     }
+    
 }
 
 @media (min-width: 768px) {
