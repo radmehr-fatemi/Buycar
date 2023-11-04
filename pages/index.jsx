@@ -1,13 +1,16 @@
-import React from 'react';
-
-//Component
-import Cars from '../components/templates/cars/Cars';
+import React, { useEffect } from 'react';
+import { useRouter } from 'next/router';
 
 const index = () => {
+
+  const router = useRouter();
+
+  useEffect( () => {
+    router.replace('./cars')
+  } ,[])
+  
   return (
-    <div>
-      <Cars />
-    </div>
+    <div></div>
   )
 };
 
