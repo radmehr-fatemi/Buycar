@@ -17,7 +17,7 @@ const CarDetails = (props) => {
 
     return (
         <div className={styles.carDetails} >
-            <img src={image} alt="" />
+            <img src={image} alt="car photo" />
 
             <div className={styles.field1} >
                 <h3> {name} {model} </h3>
