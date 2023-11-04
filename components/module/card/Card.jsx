@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 //ICON
 import Location from "../../icons/Location";
@@ -8,13 +9,13 @@ import styles from "./Card.module.scss";
 
 const Card = (props) => {
 
-    const { category, description, distance, id, image, location, model, name, price, year } = props;
+    const { distance, id, image, location, model, name, price, year } = props;
 
     return (
         <div className={styles.card} >
 
             <div className={styles.field1} >
-                <img src={image} alt="car photo" />
+           <Link href={`/cars/${id}`} ><img src={image} alt="car photo" /></Link>
             </div>
 
             <div className={styles.field2} >

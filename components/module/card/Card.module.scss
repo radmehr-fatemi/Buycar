@@ -1,11 +1,12 @@
+@import "../../../styles/Keyframes.scss";
+
 .card {
     width: 280px;
     box-shadow: 3px 3px 12px rgb(166, 186, 189);
     border-radius: 6px;
     margin: .8rem;
     overflow: hidden;
-
-    
+    animation: ShowOpacity .3s;
 }
 
 .field2,
