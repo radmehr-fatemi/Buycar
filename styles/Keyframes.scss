@@ -1,0 +1,26 @@
+  /* ------------keyframes----------- */
+  @keyframes Show {
+    0% {
+      height: 0;
+    }
+  }
+
+  @keyframes ShowOpacity {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+}
+
+@keyframes ShowScrollTop {
+  0% {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes ShowScrollBottom {
+  0% {
+    transform: translateY(100%);
+  }
+}
+

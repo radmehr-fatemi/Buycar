@@ -1,0 +1,28 @@
+@import "../../../styles/Keyframes.scss";
+
+.navbar {
+    background-color: rgba(62, 154, 154, 0.785);
+    backdrop-filter: blur(6px);
+    text-align: center;
+    color: #fff;
+    padding: .4rem;
+    margin: auto;
+    position: sticky;
+    top: 0;
+    animation: ShowScrollTop .3s;
+}
+
+.navbar h1 {
+    border-bottom: 1px solid #fff ;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: .2rem;
+    padding-bottom: .1rem;
+}
+
+@media ( min-width: 768px ) {
+    .navbar {
+        width: 400px;
+        top: .8rem;
+    }
+}
