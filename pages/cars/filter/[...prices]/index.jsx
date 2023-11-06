@@ -8,7 +8,7 @@ import ShowFiltered from '../../../../components/templates/ShowFiltered/ShowFilt
 const FilterPrice = () => {
 
     const router = useRouter()
-    const [ min ,max ] = router.query.prices;
+    const [ min ,max ] = router.query.prices || '';
     const filterCars = carsData.filter( car => car.price > min && car.price < max );
     console.log(min,max)
 
